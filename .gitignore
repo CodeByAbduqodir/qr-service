@@ -1,0 +1,4 @@
+vendor/
+temp_*.png
+bot_log.txt
+config.php

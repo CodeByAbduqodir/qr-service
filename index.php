@@ -1,3 +1,8 @@
+<?php
+require __DIR__ . '/vendor/autoload.php';
+require 'bot.php';
+?>
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
