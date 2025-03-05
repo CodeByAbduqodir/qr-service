@@ -4,13 +4,15 @@ require 'vendor/autoload.php';
 use chillerlan\QRCode\QRCode;
 use chillerlan\QRCode\QROptions;
 
+header('Content-Type: text/html; charset=UTF-8');
+
 if (isset($_POST['qr_text'])) {
     $text = $_POST['qr_text'];
 
     $options = new QROptions([
-        'eccLevel' => QRCode::ECC_L, 
+        'eccLevel' => QRCode::ECC_L,
         'outputType' => QRCode::OUTPUT_IMAGE_PNG,
-        'scale' => 7, 
+        'scale' => 7,
     ]);
 
     $qrcode = (new QRCode($options))->render($text);
@@ -19,5 +21,6 @@ if (isset($_POST['qr_text'])) {
     echo "<img src='$qrcode'>";
     echo "<br><a href='index.php'>Back</a>";
 } else {
-    echo "Text not found!";
+    header('Location: index.php');
+    exit;
 }
