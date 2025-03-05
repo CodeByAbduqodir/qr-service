@@ -59,6 +59,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 For any questions or issues, feel free to reach out:
-- GitHub: [your-username](https://github.com/codebyabduqodir)
+- GitHub: [CodeByAbduqodir](https://github.com/codebyabduqodir)
 - Email: alrgmw@gmail.com
 
