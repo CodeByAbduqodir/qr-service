@@ -1,17 +1,17 @@
-# Project Name
+# QR Service
 
 ## Description
-A brief description of your project. Explain what it does and its main features.
+This PHP code can create QR code from text given by user or can read any qr codes!
 
 ## Installation
 
 1. Clone this repository:
    ```sh
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/your-username/qr-service.git
    ```
 2. Navigate to the project directory:
    ```sh
-   cd your-repo
+   cd qr-service
    ```
 3. Install dependencies:
    ```sh
@@ -28,9 +28,8 @@ php -S localhost:8000
 Then, open `http://localhost:8000` in your browser.
 
 ## Features
-- Feature 1
-- Feature 2
-- Feature 3
+- Reading QR codes
+- Creating QR codes
 
 ## File Structure
 ```
@@ -60,6 +59,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 For any questions or issues, feel free to reach out:
-- GitHub: [your-username](https://github.com/your-username)
-- Email: your-email@example.com
+- GitHub: [your-username](https://github.com/codebyabduqodir)
+- Email: alrgmw@gmail.com
 
